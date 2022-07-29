@@ -1,0 +1,21 @@
+name: flutter_web_seo_example
+description: A flutter web package - for SEO purposes.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_seo:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true

@@ -1,39 +1,70 @@
-<!-- 
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# Flutter Web SEO
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages). 
+[![Pub][pub_badge]][pub]
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages). 
--->
+A flutter web package - for SEO purposes.
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+[![BuyMeACoffee][buy_me_a_coffee_badge]][buy_me_a_coffee]
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- Web User-Agent Runtime Detection for Search Engines
+
+- Render HTML element tags from TEXT widget
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+In the `pubspec.yaml` of your flutter project, add the following dependency:
+
+```yaml
+dependencies:
+  flutter_web_seo: <latest_version>
+```
+
+In your library add the following import:
+
+```dart
+import 'package:flutter_web_seo/flutter_web_seo.dart';
+```
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
+For a longer example see at `/example` folder.
 
 ```dart
-const like = 'sample';
+return MaterialApp(
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+    ).seo();
 ```
 
-## Additional information
+```dart
+...
+child: Text('You have pushed the button this many times:')
+    .seo(style: WebSEOTextStyle.header1),
+...
+```
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+## Sponsoring
+
+I'm working on my packages on my free-time, but I don't have as much time as I would. If this package or any other package I created is helping you, please consider to sponsor me so that I can take time to read the issues, fix bugs, merge pull requests and add features to these packages.
+
+## Contributions
+
+Feel free to contribute to this project.
+
+If you find a bug or want a feature, but don't know how to fix/implement it, please fill an [issue][issue].  
+If you fixed a bug or implemented a feature, please send a [pull request][pr].
+
+<!-- Links -->
+[pub_badge]: https://img.shields.io/pub/v/flutter_web_seo.svg
+[pub]: https://pub.dartlang.org/packages/flutter_web_seo
+
+[buy_me_a_coffee]: https://www.buymeacoffee.com/dipdev
+[buy_me_a_coffee_badge]: https://img.buymeacoffee.com/button-api/?text=Donate&emoji=&slug=dipdev&button_colour=29b6f6&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00
+
+[issue]: https://dev.azure.com/dipdev/Flutter%20Web/_workitems/recentlyupdated/
+[pr]: https://dev.azure.com/dipdev/Flutter%20Web/_git/Flutter%20Web%20Seo/pullrequests
