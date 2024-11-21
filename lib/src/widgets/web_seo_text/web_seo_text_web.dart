@@ -25,8 +25,7 @@ class WebSEOText extends StatefulWidget {
   ///Text Style [WebSEOTextStyle] for rendering
   final WebSEOTextStyle? style;
 
-  const WebSEOText({Key? key, required this.child, this.text, this.style})
-      : super(key: key);
+  const WebSEOText({super.key, required this.child, this.text, this.style});
 
   @override
   State<WebSEOText> createState() => _WebSEOTextState();

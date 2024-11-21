@@ -7,10 +7,10 @@ class SizeWidget extends SingleChildRenderObjectWidget {
   final Function(Size) onSize;
 
   const SizeWidget({
-    Key? key,
+    super.key,
     required this.onSize,
-    required Widget child,
-  }) : super(key: key, child: child);
+    required Widget super.child,
+  });
 
   @override
   RenderObject createRenderObject(BuildContext context) {
