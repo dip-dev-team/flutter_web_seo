@@ -1,4 +1,4 @@
-library flutter_web_seo;
+library;
 
 export 'src/extensions/application_extension.dart';
 export 'src/extensions/robot_detector_extension.dart';

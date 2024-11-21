@@ -14,22 +14,24 @@ A flutter web package - for SEO purposes.
 
 ## Getting started
 
-In the `pubspec.yaml` of your flutter project, add the following dependency:
+To use this package, add `flutter_web_seo` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
 
 ```yaml
 dependencies:
   flutter_web_seo: <latest_version>
 ```
 
-In your library add the following import:
+## Using
 
 ```dart
 import 'package:flutter_web_seo/flutter_web_seo.dart';
 ```
 
-## Usage
+### Example
 
 For a longer example see at `/example` folder.
+
+#### MaterialApp
 
 ```dart
 return MaterialApp(
@@ -40,6 +42,8 @@ return MaterialApp(
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
     ).seo();
 ```
+
+#### Text
 
 ```dart
 ...
@@ -63,8 +67,8 @@ If you fixed a bug or implemented a feature, please send a [pull request][pr].
 [pub_badge]: https://img.shields.io/pub/v/flutter_web_seo.svg
 [pub]: https://pub.dartlang.org/packages/flutter_web_seo
 
-[buy_me_a_coffee]: https://www.buymeacoffee.com/dipdev
-[buy_me_a_coffee_badge]: https://img.buymeacoffee.com/button-api/?text=Donate&emoji=&slug=dipdev&button_colour=29b6f6&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00
+[buy_me_a_coffee]:https://buymeacoffee.com/dip.dev
+[buy_me_a_coffee_badge]: https://img.buymeacoffee.com/button-api/?text=Donate&emoji=&slug=dip.dev&button_colour=29b6f6&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00
 
-[issue]: https://dev.azure.com/dipdev/Flutter%20Web/_workitems/recentlyupdated/
-[pr]: https://dev.azure.com/dipdev/Flutter%20Web/_git/Flutter%20Web%20Seo/pullrequests
+[issue]: https://github.com/dip-dev-team/flutter_web_seo/issues
+[pr]: https://github.com/dip-dev-team/flutter_web_seo/pulls

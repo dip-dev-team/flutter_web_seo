@@ -1,12 +1,13 @@
 name: flutter_web_seo
 description: A flutter web package - for SEO purposes.
-version: 0.0.1
-homepage: https://dev.azure.com/dipdev/Flutter%20Web
-repository: https://dev.azure.com/dipdev/Flutter%20Web/_git/Flutter%20Web%20Seo
+version: 0.0.2
+homepage: https://dip.dev
+repository: https://github.com/dip-dev-team/flutter_web_seo
+issue_tracker: https://github.com/dip-dev-team/flutter_web_seo/issues
 
 environment:
-  sdk: ">=2.17.6 <3.0.0"
-  flutter: ">=1.17.0"
+  sdk: ">=3.5.0 <4.0.0"
+  flutter: ">=3.20.0"
 
 dependencies:
   flutter:
@@ -15,6 +16,8 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
+  flutter_lints: ^5.0.0
 
-flutter:
+topics:
+  - seo
+  - web

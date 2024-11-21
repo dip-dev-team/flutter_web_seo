@@ -1,6 +1,6 @@
 {
-    "name": "flutter_web_seo_example",
-    "short_name": "flutter_web_seo_example",
+    "name": "Flutter WEB SEO example",
+    "short_name": "Flutter WEB SEO example",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
