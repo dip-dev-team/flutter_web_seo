@@ -63,8 +63,8 @@ If you fixed a bug or implemented a feature, please send a [pull request][pr].
 [pub_badge]: https://img.shields.io/pub/v/flutter_web_seo.svg
 [pub]: https://pub.dartlang.org/packages/flutter_web_seo
 
-[buy_me_a_coffee]: https://www.buymeacoffee.com/dipdev
-[buy_me_a_coffee_badge]: https://img.buymeacoffee.com/button-api/?text=Donate&emoji=&slug=dipdev&button_colour=29b6f6&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00
+[buy_me_a_coffee]:buymeacoffee.com/dip.dev
+[buy_me_a_coffee_badge]: https://img.buymeacoffee.com/button-api/?text=Donate&emoji=&slug=dip.dev&button_colour=29b6f6&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00
 
-[issue]: https://dev.azure.com/dipdev/Flutter%20Web/_workitems/recentlyupdated/
-[pr]: https://dev.azure.com/dipdev/Flutter%20Web/_git/Flutter%20Web%20Seo/pullrequests
+[issue]: https://github.com/dip-dev-team/flutter_web_seo/issues
+[pr]: https://github.com/dip-dev-team/flutter_web_seo/pulls
