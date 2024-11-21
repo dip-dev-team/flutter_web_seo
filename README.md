@@ -14,22 +14,24 @@ A flutter web package - for SEO purposes.
 
 ## Getting started
 
-In the `pubspec.yaml` of your flutter project, add the following dependency:
+To use this package, add `flutter_web_seo` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
 
 ```yaml
 dependencies:
   flutter_web_seo: <latest_version>
 ```
 
-In your library add the following import:
+## Using
 
 ```dart
 import 'package:flutter_web_seo/flutter_web_seo.dart';
 ```
 
-## Usage
+### Example
 
 For a longer example see at `/example` folder.
+
+#### MaterialApp
 
 ```dart
 return MaterialApp(
@@ -40,6 +42,8 @@ return MaterialApp(
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
     ).seo();
 ```
+
+#### Text
 
 ```dart
 ...
